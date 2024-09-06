@@ -50,9 +50,9 @@
 #Please write a script that: 
 # - Asks for the user's name and then prints it twice, on two consecutive lines.
 
-
-
-
+name = input("What is your name?")
+print(name + ", what a good name to have.")
+print("So " + name + ", how are you doing?")
 
 ## Problem 2 ##
 #Please write a script that: 
@@ -60,6 +60,8 @@
 # - Prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, 
 # - another between the two names and a third one at the end of the line.
 
+name = input("Hello good sir, your name?")
+print("Wow! That is a good name, " + name + "! Nice to meet you " + name + ". I can't wait to work with you!")
 
 ## Problem 3 ##
 #Please write a script that: 
@@ -71,11 +73,24 @@
 #   - Street address: 91 Station Road
 #   - City and postal code: Folsom CA, 95630
 
+firstname = input("Hello, I need your first name.")
+lastname = input("Last name.")
+streetaddress = input("Your address.")
+citypostal = input("Lastly, your city and postal code.")
+print("First name: " + firstname)
+print("Last name: " + lastname)
+print("Street address: " + streetaddress)
+print("City and postal code: " + citypostal)
+
 ## Problem 4 ##
 #Please write a script that: 
 # - Asks for 3 words 
 # - Puts the words together with dashes and prints that out
 
+firstword = input("Please type in a word.")
+secondword = input("Put in another word.")
+thirdword = input("Lastly, put in one more word")
+print(firstword + "-" + secondword + "-" + thirdword)
 
 ## Problem 5 ##
 #Please write a script that: 
@@ -88,3 +103,9 @@
 #Mary is a valiant knight, born in the year 1572. 
 #One morning Mary woke up to an awful racket: a dragon was approaching the village. 
 #Only Mary could save the village's residents.
+
+protagonist = input("Make a protagonist.")
+year = input("Put in a year.")
+print(protagonist + "is a baker in his little town of Pastria.")
+print("It is a peaceful night in the year " + year + ", but " + protagonist + " woke up from an abrupt noise in his kitchen.")
+print(protagonist + " walked into the kitchen only to find mice all over the kitchen. Goodness gracious!")
